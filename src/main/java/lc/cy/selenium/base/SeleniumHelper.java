@@ -30,7 +30,7 @@ public abstract class SeleniumHelper {
 
 	@After
 	public void afterTest() {
-		// driver.quit();
+		driver.quit();
 	}
 
 	@Deprecated
